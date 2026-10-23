@@ -1,9 +1,20 @@
-﻿using System;
+﻿
+using System;
+
+enum BankAccountType
+{
+    Current,
+    Savings
+}
 
 class Program
 {
     static void Main()
     {
-        Console.WriteLine("Домашняя работа 2");
+        Console.WriteLine("Упражнение 3.1");
+
+        BankAccountType account = BankAccountType.Current;
+
+        Console.WriteLine($"Тип счета: {account}");
     }
 }
