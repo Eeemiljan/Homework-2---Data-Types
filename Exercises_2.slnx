@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="DataTypes_Lesson/DataTypes_Lesson.csproj" />
   <Project Path="Exercises_2/Exercises_2.csproj" />
+  <Project Path="HomeworkTasks/HomeworkTasks.csproj" />
 </Solution>
